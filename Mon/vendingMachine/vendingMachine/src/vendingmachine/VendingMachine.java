@@ -16,8 +16,8 @@ public class VendingMachine {
     public static void main(String[] args) {
         // TODO code application logic here
 
-        int itemCost = 125;
-        int amountPaid = 600;
+        int itemCost = 99;
+        int amountPaid = 1000;
 
         // return change in lowest number of coins
         int change = amountPaid - itemCost;
@@ -37,6 +37,8 @@ public class VendingMachine {
         System.out.println(tenPenceCoins + " x 10p coins");
         System.out.println(fivePenceCoins + " x 5p coins");
         System.out.println("Total change: £" + (change / 100.0));
+
+        System.exit(0);
 
     }
 
